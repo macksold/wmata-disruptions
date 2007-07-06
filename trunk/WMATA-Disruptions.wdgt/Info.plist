@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowNetworkAccess</key>
+	<true/>
+	<key>BackwardsCompatibleClassLookup</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>WMATA-Disruptions</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.srcthis.wmata.disruptions</string>
+	<key>CFBundleName</key>
+	<string>WMATA-Disruptions</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CloseBoxInsetX</key>
+	<integer>13</integer>
+	<key>CloseBoxInsetY</key>
+	<integer>14</integer>
+	<key>Height</key>
+	<integer>246</integer>
+	<key>MainHTML</key>
+	<string>Disruptions.html</string>
+	<key>Width</key>
+	<integer>407</integer>
+</dict>
+</plist>
