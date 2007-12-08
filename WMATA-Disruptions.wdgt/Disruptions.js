@@ -618,6 +618,13 @@ function allData(node)
 //---------------------------------------------------------------------------------------------
 function createRow(title, link, date, description, index)
 {
+	// WMATA RSS feed no longer has a
+	// description for some reason
+	if(description == null) {
+		description = title;
+		title = null;
+	}
+
 	// create a DIV for the article
 	var article = document.createElement('div');
 	article.setAttribute('class', 'article ' + (index % 2 ? "even" : "odd"));
